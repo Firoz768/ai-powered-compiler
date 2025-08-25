@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Javaro ☕🚀
 
-## Getting Started
+Javaro is a modern **online Java compiler** built with Next.js 15, TailwindCSS, shadcn/ui, and Monaco Editor.  
+It allows users to write, compile, and run Java code directly in the browser — with AI-powered features planned.  
 
-First, run the development server:
+---
 
-```bash
+## ✨ Features
+- 🖥️ **Online Java Compiler** with Monaco Editor  
+- ⚡ Real-time execution via JDoodle API  
+- 🌓 Dark / Light theme toggle (powered by `next-themes`)  
+- 📑 **About page** – learn more about Javaro  
+- 📬 **Contact page** with styled form (shadcn/ui)  
+- 🔝 Responsive **Navbar** and **Footer**  
+- 🎨 Polished UI with TailwindCSS + shadcn/ui  
+
+---
+
+## 🛠️ Tech Stack
+- [Next.js 15 (App Router)](https://nextjs.org/)  
+- [TailwindCSS](https://tailwindcss.com/)  
+- [shadcn/ui](https://ui.shadcn.com/)  
+- [Monaco Editor](https://microsoft.github.io/monaco-editor/)  
+- [JDoodle API](https://www.jdoodle.com/compiler-api) (for code execution)  
+- [next-themes](https://github.com/pacocoursey/next-themes) (dark/light mode)  
+
+---
+
+## 📂 Pages
+- `/` → Home page  
+- `/compiler` → Java compiler with editor + output console  
+- `/about` → About Javaro  
+- `/contact` → Contact form  
+
+---
+
+## ⚡ Setup & Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/javaro.git
+   cd javaro
+2. Install Dependencies
+    npm install
+
+3. Create a .env.local file and add your JDoodle API keys
+
+JDOODLE_CLIENT_ID=your_client_id
+JDOODLE_CLIENT_SECRET=your_client_secret
+
+4. Run the App 
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. Open Open http://localhost:3000
