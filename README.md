@@ -54,4 +54,4 @@ It allows users to write, compile, and run Java code directly in the browser —
     ```bash 
     npm run dev
 
-5. Open Open http://localhost:3000
+5. Open http://localhost:3000
