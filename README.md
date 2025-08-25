@@ -41,14 +41,17 @@ It allows users to write, compile, and run Java code directly in the browser —
    git clone https://github.com/your-username/javaro.git
    cd javaro
 2. Install Dependencies
+    ```bash
     npm install
 
 3. Create a .env.local file and add your JDoodle API keys
 
-JDOODLE_CLIENT_ID=your_client_id
-JDOODLE_CLIENT_SECRET=your_client_secret
+    ``` env
+    JDOODLE_CLIENT_ID=your_client_id
+    JDOODLE_CLIENT_SECRET=your_client_secret
 
-4. Run the App 
-npm run dev
+4. Run the App
+    ```bash 
+    npm run dev
 
 5. Open Open http://localhost:3000
